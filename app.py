@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return jsonify({
-        "service": "Cloud Run Demo",
+        "service": "Cloud Run Demo-v1",
         "timestamp": datetime.now().isoformat()
     })
 
